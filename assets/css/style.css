@@ -1,0 +1,37 @@
+header img{
+    width: 250px;
+    height: 250px;
+    display: inline; 
+    margin-left: 100px;
+}
+
+header {
+    width: 100%;
+    background-image: url("assets/images/header.JPG");
+    background-position: 100%;
+    background-size: contain;
+    background-color: transparent;
+}
+
+header h1 {
+    display: inline;
+}
+/*
+.header-text {
+    text-align: right;
+    position: relative;
+    color: white;
+} */
+
+main img {
+    height: 25%;
+    width: 25%;
+}
+
+main section {
+    display: flex;
+}
+
+footer {
+    text-align: center;
+}
