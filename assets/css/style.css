@@ -38,6 +38,16 @@ header nav ul {
 
 main{
     margin-top: 300px;
+    display: flex;
+}
+
+.card{
+    text-align: center;
+    border-style: solid;
+    padding: 10px;
+    height: 300px;
+    width: 300px;
+    flex-wrap: wrap;
 }
 
 main section {
