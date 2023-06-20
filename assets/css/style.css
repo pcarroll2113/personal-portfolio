@@ -1,3 +1,11 @@
+/*Universal Selector*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Body Style Selectors*/
+
 header img {
     width: 250px;
     height: 250px;
@@ -25,27 +33,34 @@ h1 {
     margin: 50px;
 }
 
-nav ul {
+nav {
+    display: flex;
+    align-items: center;
     list-style-type: none;
     left: 50px;
+    background-color:#005a00;
+    color: white;
+    height: 30px;
 }
 
 nav ul li{
     display: inline-block;
+    margin: 0px 20px 0px 20px;
 }
 
 main section {
     display: flex;
     flex-wrap: wrap;
 }
-
+/*
 .container{
     width: 100%;
 }
-
+*/
 .card{
     text-align:center;
     border-style: solid;
+    border-radius: 25px;
     height: 300px;
     width: 300px;
     flex-wrap: wrap;
@@ -53,13 +68,19 @@ main section {
 }
 
 .card-image {
-    height: 200px;
-    width: 200px;
     object-fit: contain;
-    padding: 20px;
-    position: relative;
+    padding: 10px;
+    border-radius: 25px;
 }
 
+.imagetext a {
+    position: absolute;
+    background-color: transparent; 
+}
+
+/*Footer Style Selectors*/
 footer {
     text-align: center;
+    background-color: #005a00;
+    color: white;
 }
