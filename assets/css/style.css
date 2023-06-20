@@ -10,9 +10,6 @@ header img {
 }
 
 header {
-    position: fixed;
-    top: 0;
-    left: 0;
     display: flex;
     height: 300px;
     width: 100%;
@@ -30,6 +27,9 @@ h1 {
 
 header nav ul {
     list-style-type: none;
+    position:absolute;
+    left: 50px;
+    top: 250px;
 }
 
 .header nav ul li{
@@ -37,22 +37,27 @@ header nav ul {
 }
 
 main{
-    margin-top: 300px;
     display: flex;
 }
 
+.container{
+    width: 100%;
+}
+
 .card{
-    text-align: center;
+    text-align:end;
     border-style: solid;
     padding: 10px;
     height: 300px;
     width: 300px;
     flex-wrap: wrap;
+    margin: 20px;
 }
 
 main section {
     display: flex;
     border-style: dashed;
+    flex-wrap: wrap;
 }
 
 footer {
