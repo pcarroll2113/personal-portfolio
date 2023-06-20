@@ -25,19 +25,18 @@ h1 {
     margin: 50px;
 }
 
-header nav ul {
+nav ul {
     list-style-type: none;
-    position:absolute;
     left: 50px;
-    top: 250px;
 }
 
-.header nav ul li{
+nav ul li{
     display: inline-block;
 }
 
-main{
+main section {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .container{
@@ -45,19 +44,20 @@ main{
 }
 
 .card{
-    text-align:end;
+    text-align:center;
     border-style: solid;
-    padding: 10px;
     height: 300px;
     width: 300px;
     flex-wrap: wrap;
     margin: 20px;
 }
 
-main section {
-    display: flex;
-    border-style: dashed;
-    flex-wrap: wrap;
+.card-image {
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+    padding: 20px;
+    position: relative;
 }
 
 footer {
