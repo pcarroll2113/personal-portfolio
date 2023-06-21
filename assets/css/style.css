@@ -5,18 +5,13 @@
     box-sizing: border-box;
 }
 /*Body Style Selectors*/
+body{
+    font-family: ;
+    color: ;
+    background-color: #d2afff;
 
-header img {
-    width: 250px;
-    height: 250px;
-    display: inline; 
-    margin: 40px;
-    border-style: solid;
-    border-color: #005a00;
-    border-radius: 150px;
-    border-width: 5px
 }
-
+/*Header Style Selectors*/
 header {
     display: flex;
     height: 300px;
@@ -28,11 +23,21 @@ header {
     align-items: center;
     color: white;
 }
-
+header img {
+    width: 250px;
+    height: 250px;
+    display: inline; 
+    margin: 40px;
+    border-style: solid;
+    border-color: #005a00;
+    border-radius: 150px;
+    border-width: 5px
+}
 h1 {
     margin: 50px;
 }
 
+/*Nav tag Style Selectors*/
 nav {
     display: flex;
     align-items: center;
@@ -42,40 +47,42 @@ nav {
     color: white;
     height: 30px;
 }
-
 nav ul li{
     display: inline-block;
-    margin: 0px 20px 0px 20px;
+    margin: 0px 20px;
 }
-
+/*Main section Style Selectors*/
 main section {
     display: flex;
     flex-wrap: wrap;
 }
-/*
-.container{
-    width: 100%;
-}
-*/
-.card{
+
+.container {
+    position: relative;
     text-align:center;
+}
+
+.card{
     border-style: solid;
-    border-radius: 25px;
+    border-radius: 27px;
     height: 300px;
     width: 300px;
     flex-wrap: wrap;
     margin: 20px;
+}
+.image-text-one {
+    position: absolute;
+    display: flex;
+    bottom: 50px;
+    left: 50px;
+    font-size: 3em;
 }
 
 .card-image {
     object-fit: contain;
     padding: 10px;
     border-radius: 25px;
-}
-
-.imagetext a {
-    position: absolute;
-    background-color: transparent; 
+    background-color:white;
 }
 
 /*Footer Style Selectors*/
