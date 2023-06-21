@@ -86,8 +86,8 @@ div{
 .card{
     border-style: solid;
     border-radius: 27px;
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
     display: flex;
     flex-wrap: wrap;
     margin: 20px;
@@ -95,7 +95,7 @@ div{
 .image-text {
     position: absolute;
     right: 50px;
-    font-size: 2em;
+    font-size: 20px;
     background-color: black;
     background-color: rgba(0, 0, 0, .5);
     color: white;
