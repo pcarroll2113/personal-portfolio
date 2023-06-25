@@ -6,7 +6,7 @@
 }
 /*Body Style Selectors*/
 body{
-    background-color: #d2afff;
+    background-color: #f5f5f5;
 
 }
 /*Header Style Selectors*/
@@ -41,12 +41,13 @@ h1 {
 nav {
     display: flex;
     align-items: center;
-    color: white;
+    color: black;
     height: 30px;
     justify-content: flex-end;
 }
 .nav-color{
     background-color:#005a00;
+    color: white;
 }
 nav ul li{
     display: inline-block;
@@ -59,10 +60,9 @@ nav ul li{
 main section h2{
     margin: 20px 0px 0px 50px;
     font-size: 2em;
-    width:fit-content;
     position: relative;
     padding: 10px;
-    color: white;
+    color: black;
 }
 section p {
     display: flex;
@@ -76,23 +76,24 @@ div{
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
-    margin-top: 57px;
+    margin: 60px 0px 0px 0px;
     position: relative;
-    width: 50%;
 }
 .container {
     position: relative;
     text-align:center;
 }
 
-.card{
+.card {
     border-style: solid;
+    border-width: 5px;
     border-radius: 27px;
     height: 200px;
     width: 200px;
     display: flex;
     flex-wrap: wrap;
     margin: 20px;
+
 }
 .image-text {
     position: absolute;
@@ -108,9 +109,7 @@ div{
 
 .card-image {
     object-fit: contain;
-    padding: 10px;
-    border-radius: 25px;
-    background-color:white;
+    border-radius: 22px;
 }
 
 .content{
@@ -125,8 +124,10 @@ div{
     display: flex;
     margin: 20px;
     padding: 10px;
-    background-color:blue;
-    width: 25%;
+    background-color:darkblue;
+    width: 30%;
+    color: white;
+    flex-direction: column;
 }
 
 main section aside h2{
@@ -135,6 +136,7 @@ main section aside h2{
     width:fit-content;
     position: relative;
     padding: 10px;
+    color: white;
 }
 
 .contact-h2{
@@ -151,7 +153,7 @@ main section nav {
 
 /*Footer Style Selectors*/
 footer {
-    padding: 10px;
+    padding: 10px 0px 10px 0px;
     text-align: center;
     background-color: #005a00;
     color: white;
