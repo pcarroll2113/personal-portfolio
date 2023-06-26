@@ -148,8 +148,8 @@ h1 {
 
 /*Aside Section Selectors*/
 .about-me{
-    display: flex;
-    flex-direction: column;
+    /*display: flex;
+    flex-direction: column;*/
     background-color:#005a00;
     width: 100%;
     height: fit-content;
@@ -167,8 +167,8 @@ h1 {
 }
 .life-article{
     padding:10px;
-    display: flex;
-    flex-direction: row;
+    /*display: flex;
+    flex-direction: row;*/
 }
 .life-inner{
     display:flex;
@@ -189,7 +189,7 @@ h1 {
     margin: 35px;
 }
 .contact ul li{
-    display:inline-block;
+    display:inline;
     margin: 0px 20px;
 }
 .contact a {
