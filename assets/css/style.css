@@ -76,7 +76,7 @@ h1 {
 /*My Work section Style Selectors*/
 .content{
     display: flex;
-    justify-content: space-between;
+    justify-content:flex-start;
     margin:0px;
     padding:0px;
     width: 100%;
@@ -85,7 +85,6 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
-    margin: 80px 0px 50px 80px;
     position: relative;
 }
 .container {
@@ -125,6 +124,10 @@ h1 {
     border-radius: 15px;
     padding: 10px;
 }
+.art{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 /*Aside Section Selectors*/
 .about-me{
@@ -137,6 +140,10 @@ h1 {
     color: white;
 }
 .about-me h2 {
+    font-size: 2em;
+    position: relative;
+    padding: 10px;
+    margin: 20px;
     color: white;
 }
 .about-me p {
