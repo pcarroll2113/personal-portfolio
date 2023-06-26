@@ -219,8 +219,8 @@ footer {
 }
 
 /*Creating Responsive Design*/
-/*
-@media screen and (min-width: 768px) {
+
+@media screen and (max-width: 768px) {
     .content{
         flex-direction: column;
     }
@@ -230,4 +230,6 @@ footer {
     .life-inner{
         flex-wrap: wrap;
     }
+}
+@media screen and (min-width: 768px) {
 }
