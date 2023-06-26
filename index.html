@@ -13,7 +13,7 @@
             <h1>This Portfolio belongs to Paige</h1>
             <img src="assets/images/me-green-hair.jpeg">
         </header>
-        <nav class="nav-color">
+        <nav class="nav">
             <ul>
                 <li>
                     <a href="#about-me" style="color:white">About Me</a>
@@ -29,70 +29,78 @@
                 </li>
             </ul>
         </nav>
+
         <main>
-            <section class="about" id="about-me">
-                <h2>About Me</h2>
-                    <p>Hello! I am a green programmer looking to get unbearably immersed in the terminal. I have shared below a few of my development projects as well as some activities that I enjoy when my hands are not adhered to my keyboard. </p>
+            <section class="bio" id="about-me">
+                <h2 class="h2">About Me</h2>
+                <p>Hello! I am a green programmer looking to get unbearably immersed in the terminal. I have shared below a few of my development projects as well as some activities that I enjoy when my hands are not adhered to my keyboard.</p>    
             </section>
+
             <section class="content" id="my-work">
-                <h2>My Work</h2>    
-                    <div>
+                <h2 class="h2">My Work</h2>    
+                    <div class="work">
                         <article class="first-card container">
                             <a href=" https://sillytsundere.github.io/Horiseon-Solutions/">
-                                <img src="./assets/images/first project.png" class="card-image" style="width: 100%">
+                                <img src="./assets/images/first project.png" class="card-image">
                             </a>
                             <p class="image-text">Horiseon Studios</p>
                         </article>
                         <article class="card container">
                             <a>
-                                <img src="./assets/images/gems.jpeg" class="card-image" style="width: 100%">
+                                <img src="./assets/images/gems.jpeg" class="card-image">
                             </a>
                             <p class="image-text">Gems</p>
                         </article>
                         <article class="card container">
                             <a>
-                                <img src="./assets/images/the-mess.jpeg" class="card-image" style="width: 100%">
+                                <img src="./assets/images/the-mess.jpeg" class="card-image">
                             </a>
                             <p class="image-text">Mess</p>
                         </article>
                         <article class="card container">
                             <a>
-                                <img src="./assets/images/unfinished.jpeg" class="card-image" style="width: 100%">
+                                <img src="./assets/images/unfinished.jpeg" class="card-image">
                             </a>
                             <p class="image-text">Unfinished</p>
                         </article>
                         <article class="card container">
                             <a>
-                                <img src="./assets/images/hotandcold.jpeg" class="card-image" style="width: 100%">
+                                <img src="./assets/images/hotandcold.jpeg" class="card-image">
                             </a>
                             <p class="image-text">Hot & Cold</p>
                         </article>
                     </div>
             </section>
+
             <section class="about-me" id="my-life">
                 <h2>My life outside of the terminal</h2>
                 <article class="life-article">
-                    <a>
-                        <p>Running</p>
-                        <img src="./assets/images/running.JPG" class="life-image" alt="Me being held by two SFFD firemen in tuxedos after running the 10th Nike Women's Half Marathon">
-                    </a>
-                    <a>
-                        <p>Skating</p>
-                        <img src="./assets/images/skating.PNG" class="life-image" alt="Me rollerskating at a skatepark">
-                    </a>
-                    <a>
-                        <p>Hiking</p>
-                        <img src="./assets/images/hiking.jpeg" class="life-image" alt="Me standing on a trail in a field of wildflowers">
-                    </a>
-                    <a>
-                        <p>Crafting</p>
-                        <img src="./assets/images/craft.jpeg" class="life-image" alt="a crochet project made from light blue yarn with a crochet hook resting on top">
-                    </a>
+                    <div class="life-inner">
+                        <a>
+                            <p>Running</p>
+                            <img src="./assets/images/running.JPG" class="life-image" alt="Me being held by two SFFD firemen in tuxedos after running the 10th Nike Women's Half Marathon">
+                        </a>
+                        <a>
+                            <p>Skating</p>
+                            <img src="./assets/images/skating.PNG" class="life-image" alt="Me rollerskating at a skatepark">
+                        </a>
+                    </div>
+                    <div class="life-inner">
+                        <a>
+                            <p>Hiking</p>
+                            <img src="./assets/images/hiking.jpeg" class="life-image" alt="Me standing on a trail in a field of wildflowers">
+                        </a>
+                        <a>
+                            <p>Crafting</p>
+                            <img src="./assets/images/craft.jpeg" class="life-image" alt="a crochet project made from light blue yarn with a crochet hook resting on top">
+                        </a>
+                    </div>
                 </article>
             </section>
+
             <section id="contact-me">
-                <h2 class="contact-h2">Contact Me</h2>
-                <nav>
+                <h2 class="h2">Contact Me</h2>
+                <nav class="contact">
                     <ul>
                         <li>
                             <a href="https://github.com/sillytsundere">GitHub</a>
@@ -109,9 +117,13 @@
                     </ul>
                 </nav>
             </section>
+
         </main>
     </body>
+
     <footer>
         <p>"Nothing is real, love is everything, and I know nothing" - Kesha Rose</p>
     </footer>
+
 </html>
+        
