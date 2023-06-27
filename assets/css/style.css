@@ -68,7 +68,6 @@ h1 {
 
 /*About Me section Style Selectors*/
 .bio {
-    height: 175px;
     display: flex;
     flex-wrap: nowrap;
     height: fit-content;
@@ -148,8 +147,8 @@ h1 {
 
 /*Aside Section Selectors*/
 .about-me{
-    /*display: flex;
-    flex-direction: column;*/
+    display: flex;
+    flex-direction: column;
     background-color:#005a00;
     width: 100%;
     height: fit-content;
@@ -167,8 +166,8 @@ h1 {
 }
 .life-article{
     padding:10px;
-    /*display: flex;
-    flex-direction: row;*/
+    display: flex;
+    flex-direction: row;
 }
 .life-inner{
     display:flex;
