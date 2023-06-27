@@ -11,7 +11,7 @@ To run the code, clone index.html from [my repository](https://github.com/sillyt
 ## Here is an image of the finished site:
 ![photo of website](assets/images/portfolio-screenshot.png)
 
-The deployed site can be reached at this link:
+The deployed site can be reached at this link:  (https://sillytsundere.github.io/personal-portfolio/)
 
 ## Credits
 Website used to write html basics for this page: https://www.w3schools.com/html/html_basic.asp
