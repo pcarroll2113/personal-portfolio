@@ -1,132 +1,159 @@
 <!DOCTYPE html>
 
 <html lang="en-us">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link ref="stylesheet" href="assets/css/reset.css">
-        <link rel="stylesheet" href="assets/css/style.css">
-        <title>Silly Little Stuff</title>
-    </head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link ref="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Silly Little Stuff</title>
+  </head>
 
-    <body>
-        <header>
-            <h1>This Portfolio belongs to Paige</h1>
-            <img src="assets/images/me-green-hair.jpeg">
-        </header>
-        <nav class="nav">
-            <ul>
-                <li>
-                    <a href="#about-me">About Me</a>
-                </li>
-                <li>
-                    <a href="#my-work">My Work</a>
-                </li>
-                <li>
-                    <a href="#my-life">Life Outside the Terminal</a>
-                </li>
-                <li>
-                    <a href="#contact-me">Contact Me</a>
-                </li>
-            </ul>
+  <body>
+    <header>
+      <h1>This Portfolio belongs to Paige</h1>
+      <img src="assets/images/me-green-hair.jpeg" />
+    </header>
+    <nav class="nav">
+      <ul>
+        <li>
+          <a href="#about-me">About Me</a>
+        </li>
+        <li>
+          <a href="#my-work">My Work</a>
+        </li>
+        <li>
+          <a href="#my-life">Life Outside the Terminal</a>
+        </li>
+        <li>
+          <a href="#contact-me">Contact Me</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <section class="bio" id="about-me">
+        <h2 class="h2">About Me</h2>
+        <p>
+          Hello! I am a green programmer looking to get unbearably immersed in
+          the terminal. I have shared below a few of my development projects as
+          well as some activities that I enjoy when my hands are not adhered to
+          my keyboard.
+        </p>
+      </section>
+
+      <section class="content" id="my-work">
+        <h2 class="h2 my-work">My Work</h2>
+        <div class="work-art">
+          <div class="work">
+            <article class="first-card container">
+              <a href=" https://sillytsundere.github.io/Horiseon-Solutions/">
+                <img
+                  src="./assets/images/first project.png"
+                  class="card-image-large"
+                />
+              </a>
+              <p class="image-text">Horiseon Studios</p>
+            </article>
+          </div>
+          <div class="art">
+            <article class="card container">
+              <a>
+                <img src="./assets/images/gems.jpeg" class="card-image" />
+              </a>
+              <p class="image-text">Gems</p>
+            </article>
+            <article class="card container">
+              <a>
+                <img src="./assets/images/the-mess.jpeg" class="card-image" />
+              </a>
+              <p class="image-text">Mess</p>
+            </article>
+            <article class="card container">
+              <a>
+                <img src="./assets/images/unfinished.jpeg" class="card-image" />
+              </a>
+              <p class="image-text">Unfinished</p>
+            </article>
+            <article class="card container">
+              <a>
+                <img src="./assets/images/hotandcold.jpeg" class="card-image" />
+              </a>
+              <p class="image-text">Hot & Cold</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-me" id="my-life">
+        <h2>My life outside of the terminal</h2>
+        <article class="life-article">
+          <div class="life-inner">
+            <a>
+              <p>Running</p>
+              <img
+                src="./assets/images/running.JPG"
+                class="life-image"
+                alt="Me being held by two SFFD firemen in tuxedos after running the 10th Nike Women's Half Marathon"
+              />
+            </a>
+            <a>
+              <p>Skating</p>
+              <img
+                src="./assets/images/skating.PNG"
+                class="life-image"
+                alt="Me rollerskating at a skatepark"
+              />
+            </a>
+          </div>
+          <div class="life-inner">
+            <a>
+              <p>Hiking</p>
+              <img
+                src="./assets/images/hiking.jpeg"
+                class="life-image"
+                alt="Me standing on a trail in a field of wildflowers"
+              />
+            </a>
+            <a>
+              <p>Crafting</p>
+              <img
+                src="./assets/images/craft.jpeg"
+                class="life-image"
+                alt="a crochet project made from light blue yarn with a crochet hook resting on top"
+              />
+            </a>
+          </div>
+        </article>
+      </section>
+
+      <section id="contact-me">
+        <h2 class="h2">Contact Me</h2>
+        <nav class="contact">
+          <ul>
+            <li>
+              <a href="https://github.com/sillytsundere">GitHub</a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/sillytsundere/">Instagram</a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/paigehcarroll2113/"
+                >LinkedIn</a
+              >
+            </li>
+            <li>
+              <a href="mailto:paigehcarroll@gmail.com">Email</a>
+            </li>
+          </ul>
         </nav>
+      </section>
+    </main>
+  </body>
 
-        <main>
-            <section class="bio" id="about-me">
-                <h2 class="h2">About Me</h2>
-                <p>Hello! I am a green programmer looking to get unbearably immersed in the terminal. I have shared below a few of my development projects as well as some activities that I enjoy when my hands are not adhered to my keyboard.</p>    
-            </section>
-
-            <section class="content" id="my-work">
-                <h2 class="h2">My Work</h2>    
-                    <div class="work">
-                        <article class="first-card container">
-                            <a href=" https://sillytsundere.github.io/Horiseon-Solutions/">
-                                <img src="./assets/images/first project.png" class="card-image">
-                            </a>
-                            <p class="image-text">Horiseon Studios</p>
-                        </article>
-                    </div>
-                    <div class="art">
-                        <article class="card container">
-                            <a>
-                                <img src="./assets/images/gems.jpeg" class="card-image">
-                            </a>
-                            <p class="image-text">Gems</p>
-                        </article>
-                        <article class="card container">
-                            <a>
-                                <img src="./assets/images/the-mess.jpeg" class="card-image">
-                            </a>
-                            <p class="image-text">Mess</p>
-                        </article>
-                        <article class="card container">
-                            <a>
-                                <img src="./assets/images/unfinished.jpeg" class="card-image">
-                            </a>
-                            <p class="image-text">Unfinished</p>
-                        </article>
-                        <article class="card container">
-                            <a>
-                                <img src="./assets/images/hotandcold.jpeg" class="card-image">
-                            </a>
-                            <p class="image-text">Hot & Cold</p>
-                        </article>
-                    </div>
-            </section>
-
-            <section class="about-me" id="my-life">
-                <h2>My life outside of the terminal</h2>
-                <article class="life-article">
-                    <div class="life-inner">
-                        <a>
-                            <p>Running</p>
-                            <img src="./assets/images/running.JPG" class="life-image" alt="Me being held by two SFFD firemen in tuxedos after running the 10th Nike Women's Half Marathon">
-                        </a>
-                        <a>
-                            <p>Skating</p>
-                            <img src="./assets/images/skating.PNG" class="life-image" alt="Me rollerskating at a skatepark">
-                        </a>
-                    </div>
-                    <div class="life-inner">
-                        <a>
-                            <p>Hiking</p>
-                            <img src="./assets/images/hiking.jpeg" class="life-image" alt="Me standing on a trail in a field of wildflowers">
-                        </a>
-                        <a>
-                            <p>Crafting</p>
-                            <img src="./assets/images/craft.jpeg" class="life-image" alt="a crochet project made from light blue yarn with a crochet hook resting on top">
-                        </a>
-                    </div>
-                </article>
-            </section>
-
-            <section id="contact-me">
-                <h2 class="h2">Contact Me</h2>
-                <nav class="contact">
-                    <ul>
-                        <li>
-                            <a href="https://github.com/sillytsundere">GitHub</a>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com/sillytsundere/">Instagram</a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/paigehcarroll2113/">LinkedIn</a>
-                        </li>
-                        <li>
-                            <a href="mailto:paigehcarroll@gmail.com">Email</a>
-                        </li>
-                    </ul>
-                </nav>
-            </section>
-
-        </main>
-    </body>
-
-    <footer>
-        <p>"Nothing is real, love is everything, and I know nothing" - Kesha Rose</p>
-    </footer>
-
+  <footer>
+    <p>
+      "Nothing is real, love is everything, and I know nothing" - Kesha Rose
+    </p>
+  </footer>
 </html>
-        
