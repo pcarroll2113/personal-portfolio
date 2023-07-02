@@ -199,7 +199,7 @@ main {
     padding:10px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     justify-content: center;
 }
 .life-inner{
@@ -216,6 +216,7 @@ main {
 /*Contact Section Style Selectors*/
 .contact {
     display: flex;
+    flex-wrap: nowrap;
     justify-content: center;
     font-size: 2em;
     margin: 35px;
@@ -235,6 +236,10 @@ main {
 .contact a:active{
     color: purple;
     text-decoration: line-through;
+}
+
+.links {
+    display: flex;
 }
 
 /*Footer Style Selectors*/
@@ -258,6 +263,7 @@ footer {
     }
     .life-article{
         flex-direction:column;
+        align-items: center;
     }
     .life-inner{
         flex-wrap: wrap;
@@ -282,6 +288,10 @@ footer {
     }
     .life-inner {
         justify-content: center;
+    }
+    .links {
+        flex-direction: column;
+        align-items: center;
     }
 }
 @media screen and (min-width: 425pc) {
