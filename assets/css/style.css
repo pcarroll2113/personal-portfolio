@@ -240,6 +240,8 @@ main {
 
 .links {
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 
 /*Footer Style Selectors*/
@@ -267,6 +269,10 @@ footer {
     }
     .life-inner{
         flex-wrap: wrap;
+    }
+    .links {
+        flex-direction: column;
+        align-items: center;
     }
 }
 @media screen and (min-width: 768px) {
