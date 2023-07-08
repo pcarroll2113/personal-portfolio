@@ -85,7 +85,7 @@ main {
 }
 .bio p {
     padding: 10px;
-    margin: 60px 0px 20px 0px;
+    margin: 2%;
     font-size: 1.5em;
     display: flex;
 }
@@ -100,7 +100,8 @@ main {
 }
 #my-work {
     display: flex;
-    flex-direction: column;
+    /*flex-direction: column;*/
+    margin-bottom: 3%;
 
 }
 .work-art {
@@ -135,17 +136,13 @@ main {
 
 }
 .card {
-    /* height: 200px; */
-    /* margin: 15px; */
     margin: 2%;
     width: 46%;
 }
 .card-image-large {
     object-fit: contain;
-    /* border-radius: 22px; */
     position: relative;
     width: 100%;
-    /* max-width: 440px; */
     border: 5px solid black;
     border-radius: 27px;
 }
@@ -199,7 +196,7 @@ main {
     padding:10px;
     display: flex;
     flex-direction: row;
-    /*flex-wrap: wrap;*/
+    flex-wrap: wrap;
     justify-content: center;
 }
 .life-inner{
@@ -260,6 +257,12 @@ footer {
 /*Creating Responsive Design*/
 
 @media screen and (max-width: 768px) {
+    .bio{
+        flex-direction: column;
+    }
+    .bio p {
+        margin: 20px;
+    }
     .content{
         flex-direction: column;
     }
@@ -290,10 +293,25 @@ footer {
         flex-direction: column;
     }
     .bio p {
-        margin: 20px;
+        margin: 5%;
+    }
+    .work-art {
+        flex-direction: column;
+        align-items: center;
+    }
+    .work {
+        max-width: 100%;
+    }
+    .art {
+        max-width: 100%;
+        padding: 2%;
     }
     .life-inner {
         justify-content: center;
+    }
+    .life-article{
+        flex-direction:column;
+        align-items: center;
     }
     .links {
         flex-direction: column;
