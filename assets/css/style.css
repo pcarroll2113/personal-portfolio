@@ -44,7 +44,7 @@ h1 {
 .nav {
     display: flex;
     align-items: center;
-    height: 40px;
+    min-height: 40px;
     justify-content: flex-end;
     background-color:#005a00;
     color: white;
@@ -284,6 +284,9 @@ footer {
 @media screen and (max-width: 425px) {
     header{
         flex-direction:column-reverse
+    }
+    .nav {
+        padding: 2% 0% 2% 0%;
     }
     .nav ul {
         display:flex;
