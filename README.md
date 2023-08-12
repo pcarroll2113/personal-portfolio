@@ -1,5 +1,6 @@
 # Personal Portfolio
 
+
 ## Description
 This webpage's goal is to introduce future employers, fellow programmers and developers, and anyone else interested to me! The four parts of the main section are "About Me," "My Work," "My Life Outside of Programming," and "Contact Me." The header contains a picture of my enamel pin collection. The "About Me" section contains a little blurb about myself. The "My Work" section contains tiles containing my deployed development projects; so far there is only one and the smaller four are placeholders. The "My Life Outside of the Terminal" section contains pictures of activities that I enjoy in my casual life. The "Contact Me" section contains links which enable users to reachout to me via Email, GitHub, LinkedIn and Instagram. 
 
